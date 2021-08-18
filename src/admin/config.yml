@@ -1,10 +1,10 @@
 backend:
   # Use netlify identity as backend
-  # name: git-gateway
-  # branch: main
+  name: git-gateway
+  branch: main
   ### enable below lines for github integration ###
-  name: github
-  repo: mimecine/pcards
+  # name: github
+  # repo: mimecine/pcards
 media_folder: "src/static/img"
 public_folder: "/static/img"
 
