@@ -19,6 +19,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string", required: false  }
-      - { label: "Description", name: "body", widget: "markdown", required: false }
+      - { label: "Title", name: "title", widget: "string", required: true  }
+      - { label: "Description", name: "body", widget: "markdown", required: true }
+      - { label: "Font Size", name: "font_size", widget: "number", required: false }
 

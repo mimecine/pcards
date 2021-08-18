@@ -43,6 +43,7 @@
     "dev": "cross-env NODE_ENV=development run-s clean dev:*",
     "dev:eleventy": "npx @11ty/eleventy",
     "dev:snowpack": "snowpack dev",
+    "dev:netlify": "npx netlify-cms-proxy-server",
     "build": "cross-env NODE_ENV=production run-s clean build:*",
     "build:eleventy": "npx @11ty/eleventy",
     "build:snowpack": "snowpack build",
