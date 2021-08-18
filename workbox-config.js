@@ -1,5 +1,5 @@
 module.exports = {
-  cacheId: '11ststarterkit',
+  cacheId: 'pcards',
   globDirectory: 'dist/',
   globPatterns: ['**/*.{css,js,json}'],
   swDest: 'dist/sw.js',
